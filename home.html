@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimasy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libraries/OwlCarousel2-2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="libraries/OwlCarousel2-2.2.1/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="libraries/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="aos-master/dist/aos.css">
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <header>
+        <div class="menu-top">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#">Dự án LSPP</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">Cổng tri thức</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">E-Leaning</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">Điểm đến xanh</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">Cơ hội hợp tác</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#"><img src="img/user.png" alt="">Thành viên</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#"><img src="img/VN.png" alt=""></a>
+                        <a href="#"><img src="img/UK.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="menu-bottom">
+                <ul>
+                    <li><a href="#">Việt Nam</a></li>
+                    <li><a href="#">Thành phố giảm nhựa</a></li>
+                    <li><a href="#">Thực hành giảm nhựa</a></li>
+                    <li><a href="#">Dữ liệu</a></li>
+                    <li><a href="#">mạng lưới pha</a></li>
+                    <li><input type="text"><img src="img/search.png" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- home -->
+    <div class="home">
+        <div class="home1">
+            <div class="title">
+                <div class="container">
+                    <div class="row">
+                        <div data-aos="fade-up" data-aos-duration="1500" class="col-md-4">
+                            <p>Hướng tới 2050 Việt Nam không còn rác thải nhựa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner">
+                <video src="video/banner.mp4" autoplay muted loop></video>
+            </div>
+            <div class="nen">
+                <img src="img/bg_tren1.png" alt="">
+            </div>
+        </div>
+        <div class="home2">
+            <div class="container">
+                <div data-aos="fade-up" data-aos-duration="1500" class="title">
+                    <p>DỮ LIỆU</p>
+                </div>
+                <div class="du-lieu">
+                    <div class="du-lieu1">
+                        <div class="so-luong">
+                            <img src="img/so-luong.png" alt="">
+                            <p>Số lượng: <span>123456</span></p>
+                        </div>
+                        <hr>
+                        <div class="khoi-luong">
+                            <img src="img/khoi-luong.png" alt="">
+                            <p>Khối lượng: <span>6734kg</span></p>
+                        </div>
+                    </div>
+                    <div class="du-lieu2">
+                        <div>
+                            <input type="text" placeholder="Số lượng">
+                            <input type="text" placeholder="Khối lượng">
+                            <select>
+                                <option> Loại nhựa</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input class="o-nhiem" type="text" placeholder="Mức ô nhiễm {CCI}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bieu-do">
+                <img src="img/gg-map.svg" alt="">
+            </div>
+            <div class="container">
+                <div class="select">
+                    <button>Xem báo cáo</button>
+                    <button>Tham gia cùng chúng tôi</button>
+                    <button>Chia sẻ dữ liệu</button>
+                </div>
+            </div>
+        </div>
+        <div class="home3">
+            <div class="container">
+                <nav data-aos="fade-up" data-aos-duration="1500">
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">CÂU CHUYỆN</a>
+                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">BẢN TIN</a>
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div id="owl-carousel" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <a href="#">
+                                    <div class="cau-chuyen">
+                                        <img src="img/cau-chuyen-1.png" alt="">
+                                        <div class="thong-tin">
+                                            <div class="title">
+                                                <p>Câu chuyện về rác thải nhựa tại Việt Nam</p>
+                                            </div>
+                                            <div class="user">
+                                                <img src="img/avatar-1.png" alt="">
+                                                <p>Devon Lane</p>
+                                            </div>
+                                            <hr>
+                                            <div class="date-loca">
+                                                <div class="date">
+                                                    <img src="img/date.png" alt="">
+                                                    <p>Dec 10</p>
+                                                </div>
+                                                <div class="loca">
+                                                    <img src="img/location.png" alt="">
+                                                    <p>TP HCM</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <div class="cau-chuyen">
+                                        <img src="img/cau-chuyen-2.png" alt="">
+                                        <div class="thong-tin">
+                                            <div class="title">
+                                                <p>Chung tay vì một thành phố giảm nhựa năm 2022</p>
+                                            </div>
+                                            <div class="user">
+                                                <img src="img/avatar-2.png" alt="">
+                                                <p>Esther Howard</p>
+                                            </div>
+                                            <hr>
+                                            <div class="date-loca">
+                                                <div class="date">
+                                                    <img src="img/date.png" alt="">
+                                                    <p>Dec 10</p>
+                                                </div>
+                                                <div class="loca">
+                                                    <img src="img/location.png" alt="">
+                                                    <p>Hội An</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <div class="cau-chuyen">
+                                        <img src="img/cau-chuyen-3.png" alt="">
+                                        <div class="thong-tin">
+                                            <div class="title">
+                                                <p>Giảm thiểu rác thải nhựa tại khu du lịch Đà Nẵng</p>
+                                            </div>
+                                            <div class="user">
+                                                <img src="img/avatar-3.png" alt="">
+                                                <p>Brooklyn Simmons</p>
+                                            </div>
+                                            <hr>
+                                            <div class="date-loca">
+                                                <div class="date">
+                                                    <img src="img/date.png" alt="">
+                                                    <p>Dec 10</p>
+                                                </div>
+                                                <div class="loca">
+                                                    <img src="img/location.png" alt="">
+                                                    <p>Đã Nẵng</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <div class="cau-chuyen">
+                                        <img src="img/cau-chuyen-4.png" alt="">
+                                        <div class="thong-tin">
+                                            <div class="title">
+                                                <p>Thế giới sẽ ra sao nếu không có rác thải nhựa</p>
+                                            </div>
+                                            <div class="user">
+                                                <img src="img/avatar-4.png" alt="">
+                                                <p>Guy Hawkins</p>
+                                            </div>
+                                            <hr>
+                                            <div class="date-loca">
+                                                <div class="date">
+                                                    <img src="img/date.png" alt="">
+                                                    <p>Dec 10</p>
+                                                </div>
+                                                <div class="loca">
+                                                    <img src="img/location.png" alt="">
+                                                    <p>Đà Nẵng</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <div class="cau-chuyen">
+                                        <img src="img/cau-chuyen-1.png" alt="">
+                                        <div class="thong-tin">
+                                            <div class="title">
+                                                <p>Câu chuyện về rác thải nhựa tại Việt Nam</p>
+                                            </div>
+                                            <div class="user">
+                                                <img src="img/avatar-1.png" alt="">
+                                                <p>Devon Lane</p>
+                                            </div>
+                                            <hr>
+                                            <div class="date-loca">
+                                                <div class="date">
+                                                    <img src="img/date.png" alt="">
+                                                    <p>Dec 10</p>
+                                                </div>
+                                                <div class="loca">
+                                                    <img src="img/location.png" alt="">
+                                                    <p>TP HCM</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <a href="#"><img src="img/write.png" alt=""> Viết bài chia sẻ mới</a>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <div id="owl-carousel3" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <a href="#">
+                                    <div class="cau-chuyen">
+                                        <img src="img/cau-chuyen-1.png" alt="">
+                                        <div class="thong-tin">
+                                            <div class="title">
+                                                <p>Câu chuyện về rác thải nhựa tại Việt Nam</p>
+                                            </div>
+                                            <hr>
+                                            <div class="date-loca">
+                                                <div class="date">
+                                                    <img src="img/date.png" alt="">
+                                                    <p>Dec 10</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <div class="cau-chuyen">
+                                        <img src="img/cau-chuyen-2.png" alt="">
+                                        <div class="thong-tin">
+                                            <div class="title">
+                                                <p>Câu chuyện về rác thải nhựa tại Việt Nam</p>
+                                            </div>
+                                            <hr>
+                                            <div class="date-loca">
+                                                <div class="date">
+                                                    <img src="img/date.png" alt="">
+                                                    <p>Dec 10</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <div class="cau-chuyen">
+                                        <img src="img/cau-chuyen-3.png" alt="">
+                                        <div class="thong-tin">
+                                            <div class="title">
+                                                <p>Câu chuyện về rác thải nhựa tại Việt Nam</p>
+                                            </div>
+                                            <hr>
+                                            <div class="date-loca">
+                                                <div class="date">
+                                                    <img src="img/date.png" alt="">
+                                                    <p>Dec 10</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <div class="cau-chuyen">
+                                        <img src="img/cau-chuyen-4.png" alt="">
+                                        <div class="thong-tin">
+                                            <div class="title">
+                                                <p>Câu chuyện về rác thải nhựa tại Việt Nam</p>
+                                            </div>
+                                            <hr>
+                                            <div class="date-loca">
+                                                <div class="date">
+                                                    <img src="img/date.png" alt="">
+                                                    <p>Dec 10</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <div class="cau-chuyen">
+                                        <img src="img/cau-chuyen-1.png" alt="">
+                                        <div class="thong-tin">
+                                            <div class="title">
+                                                <p>Câu chuyện về rác thải nhựa tại Việt Nam</p>
+                                            </div>
+                                            <hr>
+                                            <div class="date-loca">
+                                                <div class="date">
+                                                    <img src="img/date.png" alt="">
+                                                    <p>Dec 10</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="home4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 left">
+                        <div data-aos="fade-right" data-aos-duration="1500" class="title">
+                            <p>Thực hành xanh</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin vulputate a accumsan,
+                            mollis. Vitae aliquet ridiculus purus consequat consectetur ullamcorper scelerisque tempus
+                            eget.</p>
+                    </div>
+                    <div class="col-md-4 center">
+                        <div class="thuc-hanh-xanh">
+                            <img src="img/thuc-hanh-xanh-1.png" alt="">
+                            <div class="thong-tin">
+                                <p class="title">ADVANCED DISPOSAL FEES </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae eu suspendisse
+                                    interdum in in dui vestibulum in eleifend.</p>
+                                <a href="#">Xem chi tiết <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="thuc-hanh-xanh">
+                            <img src="img/thuc-hanh-xanh-2.png" alt="">
+                            <div class="thong-tin">
+                                <p class="title">RECYCLING INCENTIVE SCHEME</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae eu suspendisse
+                                    interdum in in dui vestibulum in eleifend.</p>
+                                <a href="#">Xem chi tiết <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 right">
+                        <div class="thuc-hanh-xanh">
+                            <img src="img/thuc-hanh-xanh-3.png" alt="">
+                            <div class="thong-tin">
+                                <p class="title">SINGLE-USE PLASTIC LEVY</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae eu suspendisse
+                                    interdum in in dui vestibulum in eleifend.</p>
+                                <a href="#">Xem chi tiết <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="thuc-hanh-xanh">
+                            <img src="img/thuc-hanh-xanh-4.png" alt="">
+                            <div class="thong-tin">
+                                <p class="title">DEPOSIT REFUND SCHEME</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae eu suspendisse
+                                    interdum in in dui vestibulum in eleifend.</p>
+                                <a href="#">Xem chi tiết <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="home5">
+            <div class="container">
+                <div id="owl-carousel1" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="abc">
+                            <div class="image">
+                                <img src="img/logo-congtrithuc.svg" alt="">
+                            </div>
+                            <div class="text">
+                                <h3>Cổng tri thức</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin vulputate a accumsan, mollis. Vitae aliquet ridiculus purus consequat consectetur ullamcorper scelerisque tempus eget.</p>
+                                <a href="#">Tìm hiểu thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="abc">
+                            <div class="image">
+                                <img src="img/logo-congtrithuc.svg" alt="">
+                            </div>
+                            <div class="text">
+                                <h3>Cổng tri thức</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin vulputate a accumsan, mollis. Vitae aliquet ridiculus purus consequat consectetur ullamcorper scelerisque tempus eget.</p>
+                                <a href="#">Tìm hiểu thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="abc">
+                            <div class="image">
+                                <img src="img/logo-congtrithuc.svg" alt="">
+                            </div>
+                            <div class="text">
+                                <h3>Cổng tri thức</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin vulputate a accumsan, mollis. Vitae aliquet ridiculus purus consequat consectetur ullamcorper scelerisque tempus eget.</p>
+                                <a href="#">Tìm hiểu thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="home6">
+            <div class="container">
+                <div data-aos="fade-up" data-aos-duration="1500" class="title">
+                    <p>Góc nhìn</p>
+                </div>
+                <div class="slide3D">
+                    <div id="carousel">
+                        <article class="prevLeftSecond"><img src="img/goc-nhin1.png">
+                            <div class="tt">
+                                <a href="#">
+                                    <p><span>'Giải cứu' giáng sinh</span></p>
+                                    <p>/ Esther Howard /</p>
+                                    <p><i>“ Tôi vừa có chuyến đi bất đắc dĩ từ Mỹ về Việt Nam, bay qua đường Phnom Penh <br> rồi
+                                            nhập cảnh qua cửa khẩu Hoa Lư, Bình Phước... “</i></p>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="prev"><img src="img/goc-nhin2.png" />
+                            <div class="tt">
+                                <a href="#">
+                                    <p><span>'Giải cứu' giáng sinh</span></p>
+                                    <p>/ Esther Howard /</p>
+                                    <p><i>“ Tôi vừa có chuyến đi bất đắc dĩ từ Mỹ về Việt Nam, bay qua đường Phnom Penh <br> rồi
+                                            nhập cảnh qua cửa khẩu Hoa Lư, Bình Phước... “</i></p>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="selected"><img src="img/goc-nhin3.png" />
+                            <div class="tt">
+                                <a href="#">
+                                    <p><span>'Giải cứu' giáng sinh</span></p>
+                                    <p>/ Esther Howard /</p>
+                                    <p><i>“ Tôi vừa có chuyến đi bất đắc dĩ từ Mỹ về Việt Nam, bay qua đường Phnom Penh <br> rồi
+                                            nhập cảnh qua cửa khẩu Hoa Lư, Bình Phước... “</i></p>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="next"><img src="img/goc-nhin4.png" />
+                            <div class="tt">
+                                <a href="#">
+                                    <p><span>'Giải cứu' giáng sinh</span></p>
+                                    <p>/ Esther Howard /</p>
+                                    <p><i>“ Tôi vừa có chuyến đi bất đắc dĩ từ Mỹ về Việt Nam, bay qua đường Phnom Penh <br> rồi
+                                            nhập cảnh qua cửa khẩu Hoa Lư, Bình Phước... “</i></p>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="nextRightSecond"><img src="img/goc-nhin5.png" />
+                            <div class="tt">
+                                <a href="#">
+                                    <p><span>'Giải cứu' giáng sinh</span></p>
+                                    <p>/ Esther Howard /</p>
+                                    <p><i>“ Tôi vừa có chuyến đi bất đắc dĩ từ Mỹ về Việt Nam, bay qua đường Phnom Penh <br> rồi
+                                            nhập cảnh qua cửa khẩu Hoa Lư, Bình Phước... “</i></p>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="hideRight"><img src="img/goc-nhin1.png">
+                            <div class="tt">
+                                <a href="#">
+                                    <p><span>'Giải cứu' giáng sinh</span></p>
+                                    <p>/ Esther Howard /</p>
+                                    <p><i>“ Tôi vừa có chuyến đi bất đắc dĩ từ Mỹ về Việt Nam, bay qua đường Phnom Penh <br> rồi
+                                            nhập cảnh qua cửa khẩu Hoa Lư, Bình Phước... “</i></p>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="hideRight"><img src="img/goc-nhin2.png">
+                            <div class="tt">
+                                <a href="#">
+                                    <p><span>'Giải cứu' giáng sinh</span></p>
+                                    <p>/ Esther Howard /</p>
+                                    <p><i>“ Tôi vừa có chuyến đi bất đắc dĩ từ Mỹ về Việt Nam, bay qua đường Phnom Penh <br> rồi
+                                            nhập cảnh qua cửa khẩu Hoa Lư, Bình Phước... “</i></p>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="hideRight"><img src="img/goc-nhin3.png">
+                            <div class="tt">
+                                <a href="#">
+                                    <p><span>'Giải cứu' giáng sinh</span></p>
+                                    <p>/ Esther Howard /</p>
+                                    <p><i>“ Tôi vừa có chuyến đi bất đắc dĩ từ Mỹ về Việt Nam, bay qua đường Phnom Penh <br> rồi
+                                            nhập cảnh qua cửa khẩu Hoa Lư, Bình Phước... “</i></p>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="hideRight"><img src="img/goc-nhin4.png">
+                            <div class="tt">
+                                <a href="#">
+                                    <p><span>'Giải cứu' giáng sinh</span></p>
+                                    <p>/ Esther Howard /</p>
+                                    <p><i>“ Tôi vừa có chuyến đi bất đắc dĩ từ Mỹ về Việt Nam, bay qua đường Phnom Penh <br> rồi
+                                            nhập cảnh qua cửa khẩu Hoa Lư, Bình Phước... “</i></p>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="hideRight"><img src="img/goc-nhin5.png">
+                            <div class="tt">
+                                <a href="#">
+                                    <p><span>'Giải cứu' giáng sinh</span></p>
+                                    <p>/ Esther Howard /</p>
+                                    <p><i>“ Tôi vừa có chuyến đi bất đắc dĩ từ Mỹ về Việt Nam, bay qua đường Phnom Penh <br> rồi nhập cảnh qua cửa khẩu Hoa Lư, Bình Phước... “</i></p>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="hideRight"><img src="img/goc-nhin1.png">
+                            <div class="tt">
+                                <a href="#">
+                                    <p><span>'Giải cứu' giáng sinh</span></p>
+                                    <p>/ Esther Howard /</p>
+                                    <p><i>“ Tôi vừa có chuyến đi bất đắc dĩ từ Mỹ về Việt Nam, bay qua đường Phnom Penh <br> rồi
+                                            nhập cảnh qua cửa khẩu Hoa Lư, Bình Phước... “</i></p>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="hideRight"><img src="img/goc-nhin2.png">
+                            <div class="tt">
+                                <a href="#">
+                                    <p><span>'Giải cứu' giáng sinh</span></p>
+                                    <p>/ Esther Howard /</p>
+                                    <p><i>“ Tôi vừa có chuyến đi bất đắc dĩ từ Mỹ về Việt Nam, bay qua đường Phnom Penh <br> rồi
+                                            nhập cảnh qua cửa khẩu Hoa Lư, Bình Phước... “</i></p>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="hideRight"><img src="img/goc-nhin3.png">
+                            <div class="tt">
+                                <a href="#">
+                                    <p><span>'Giải cứu' giáng sinh</span></p>
+                                    <p>/ Esther Howard /</p>
+                                    <p><i>“ Tôi vừa có chuyến đi bất đắc dĩ từ Mỹ về Việt Nam, bay qua đường Phnom Penh <br> rồi
+                                            nhập cảnh qua cửa khẩu Hoa Lư, Bình Phước... “</i></p>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="hideRight"><img src="img/goc-nhin4.png">
+                            <div class="tt">
+                                <a href="#">
+                                    <p><span>'Giải cứu' giáng sinh</span></p>
+                                    <p>/ Esther Howard /</p>
+                                    <p><i>“ Tôi vừa có chuyến đi bất đắc dĩ từ Mỹ về Việt Nam, bay qua đường Phnom Penh <br> rồi
+                                            nhập cảnh qua cửa khẩu Hoa Lư, Bình Phước... “</i></p>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="hideRight"><img src="img/goc-nhin5.png">
+                            <div class="tt">
+                                <a href="#">
+                                    <p><span>'Giải cứu' giáng sinh</span></p>
+                                    <p>/ Esther Howard /</p>
+                                    <p><i>“ Tôi vừa có chuyến đi bất đắc dĩ từ Mỹ về Việt Nam, bay qua đường Phnom Penh <br> rồi
+                                            nhập cảnh qua cửa khẩu Hoa Lư, Bình Phước... “
+                                        </i>
+                                    </p>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="buttons">
+                        <div id="prev"></div>
+                        <div id="next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="doi-tac">
+            <div class="container">
+                <div data-aos="fade-up" data-aos-duration="1500" class="title">
+                    <p>Đối Tác</p>
+                </div>
+                <div class="video">
+                    <video autoplay muted loop controls src="video/gioi-thieu.m4v"></video>
+                </div>
+                <div id="owl-carousel2" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="doi-tac1">
+                            <img src="img/doi-tac1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="doi-tac1">
+                            <img src="img/doi-tac2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="doi-tac1">
+                            <img src="img/doi-tac3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="doi-tac1">
+                            <img src="img/doi-tac4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="doi-tac1">
+                            <img src="img/doi-tac5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="tham-gia">
+            <div class="container">
+                <div class="title">
+                    <p>Tham gia</p>
+                </div>
+                <div class="title1">
+                    <p>Cùng hành động vì một Việt Nam xanh</p>
+                </div>
+                <div class="row lienhe">
+                    <div class="col-md-6 left">
+                        <div class="lienhe1">
+                            <p class="p">01 <span>Liên hệ</span></p>
+                            <p>Đối với phương tiện truyền thông và tất cả các yêu cầu khác</p>
+                            <a href="#"><img src="img/email.png" alt=""> Liên hệ</a>
+                        </div>
+                        <div class="dang-ky">
+                            <p class="p">02 <span>Đăng ký</span></p>
+                            <p>Tôi muốn</p>
+                            <form>
+                                <select class="dropdown-toggle">
+                                    <option>Đăng ký nhận bản tin</option>
+                                </select>
+                                <input type="text" placeholder="Tên">
+                                <input type="text" placeholder="Email">
+                                <button><img src="img/fly.png" alt="">Gửi đi</button>
+                            </form>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 right">
+                        <img src="img/lich.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- footer -->
+
+    <footer>
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-3">
+                    <ul>
+                        <li class="title">Việt Nam</li>
+                        <li><a href="#">Thông tin chung</a></li>
+                        <li><a href="#">Ô nhiễm nhựa ở Việt Nam</a></li>
+                        <li><a href="#">Các bên liên quan</a></li>
+                        <li><a href="#">Các mạng lưới</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <li class="title">Thực hành giảm nhựa</li>
+                        <li><a href="#">Cá nhân</a></li>
+                        <li><a href="#">Tổ chức cộng đồng</a></li>
+                        <li><a href="#">Mô hình</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <li class="title">Thành phố</li>
+                        <li><a href="#">Hà Nội</a></li>
+                        <li><a href="#">Đà Nẵng</a></li>
+                        <li><a href="#">Hội An</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <li class="title">Dữ liệu và giám sát</li>
+                        <li><a href="#">Ứng dụng</a></li>
+                        <li><a href="#">Ô nhiễm nhựa ở Việt Nam</a></li>
+                        <li><a href="#">Các bên liên quan</a></li>
+                        <li><a href="#">Các mạng lưới</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <ul>
+                        <li class="title">E-learning</li>
+                        <li><a href="#">Rác thải nhựa</a></li>
+                        <li><a href="#">Nhựa và sức khỏe</a></li>
+                        <li><a href="#">Truyền thông, Vận động chính sách</a></li>
+                        <li><a href="#">Kinh tế tuần hoàn</a></li>
+                        <li><a href="#">Kỹ năng khác</a></li>
+                        <li><a href="#">Trò chơi</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <li class="title">Cổng tri thức</li>
+                        <li><a href="#">Ấn phẩm báo cáo và nghiên cứu</a></li>
+                        <li><a href="#">Ấn phẩm truyền thông</a></li>
+                        <li><a href="#">Tài liệu giảng dạy/tập huấn tham khảo</a></li>
+                        <li><a href="#">Sách/cẩm nang hướng dẫn</a></li>
+                        <li><a href="#">Podcast</a></li>
+                        <li><a href="#">Khác</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <li class="title">Dự án LSPP</li>
+                        <li><a href="#">Giới thiệu dự án</a></li>
+                        <li><a href="#">Kết quả nổi bật</a></li>
+                        <li><a href="#">Sự kiện</a></li>
+                        <li><a href="#">Ấn phẩm dự án</a></li>
+                        <li><a href="#">Đội ngũ và đối tác dự án</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <li class="title">Mạng lưới PHAN</li>
+                        <li><a href="#">Giới thiệu mạng lưới</a></li>
+                        <li><a href="#">Thành viên</a></li>
+                        <li><a href="#">Kế hoạch hành động</a></li>
+                        <li><a href="#">Thành tựu</a></li>
+                        <li><a href="#">Tham gia mạng lưới</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- backtotop -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="img/to-top.png" alt=""></button>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="libraries/OwlCarousel2-2.2.1/owl.carousel.min.js"></script>
+<script src="js/defaul.js"></script>
+<script src="aos-master/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
